@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cangiua{ display:block;
+          margin-left:auto;
+		  margin-right:auto;
+}
+.daydate{ max-width: 500px;
+          display:block;
+		  margin-left:auto;
+		  margin-right:auto;
+		  }
+.daydate:hover {background-color:#E3E3E3;}
+.chitiet{max-width:500px;}

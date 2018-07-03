@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cangiua{display:block;
+         margin-left:auto;
+		 margin-right:auto;
+}
+.anhdemo{max-width:500px;
+         margin-left:auto;
+		 margin-right:auto;
+		 display:block;}
