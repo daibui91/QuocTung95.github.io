@@ -1,0 +1,151 @@
+*{box-sizing: border-box;}
+ 
+.wrap{max-width: 1024px;
+      margin:  auto;
+      }
+body{width: 100%;
+     margin: auto;
+    color: black;}
+#header{background-color: peachpuff;
+        padding: 10px, 10px;
+       max-width: 100%;}
+#header img{width: 100px;
+    height: 100px;
+    border-radius:50px;
+    position: relative;
+    top: 12px;
+    left: -66px; }
+#header ul{list-style-type: none;
+          text-align: center;}
+#header ul li{display: inline-table;
+              color: white;
+             height: 40px;
+             width: 120px;
+             position: relative;}
+#header ul li a{text-decoration: none;
+                font-size: 20px;
+                color: rgb(55, 0, 255);
+                display: block;
+                height: 40px;
+                }
+#header ul li a:hover{background-color: royalblue;
+                      color: white;}
+#header ul li > .submenu{display: none;
+                         margin: auto;
+                        position: absolute;}
+#header ul li:hover .submenu{display: block;}
+
+#header .review{font-size: 40px;
+                margin: auto;
+                color: white;
+                text-align: center;
+                position: absolute;
+                top: 29px;
+                left: 506px;}
+ @keyframes title {
+                0%  {background-color: #EF7126; color: #F9E559;}
+                25%  {background-color: #6F3662; color: #FFFFFF;}
+                50%  {background-color: #9F6164; color: #F8DEBD;}
+                75%  {background-color: #44B3C2; color: #FFFFFF;}
+                100% {background-color: #218C8D; color: #F9E559;}
+                    }
+                    
+#header .review {
+        animation: title 5s ease infinite;
+         }
+
+
+#khung{background-color: none;
+       overflow: hidden;}
+
+
+
+
+#anhdemo1{background-color:none;
+         max-width: 50%;
+         margin-top:  70px;
+        float: left;
+        overflow: hidden;
+         }
+#anhdemo2{background-color: none;
+        max-width: 50%;
+        margin-top:  70px; 
+        float: right;
+        overflow: hidden;
+        }
+
+#anhdemo1 .demo1 {width: 100%;
+           height: 380px;
+           margin-right: 2px;
+           
+           }
+#anhdemo1 .demo1:hover{transform: scale(1.5);}
+#anhdemo2 .demo2 {width: 50%;
+                height: 190px;
+                padding: 2px;
+                float: right;
+                }  
+
+#anhdemo2 .x{color: rgb(255, 255, 255);
+             text-decoration: none;
+             font-size: 20px;
+             width: 25%;}
+#anhdemo2 .anh1{position: absolute;
+                width: 25%;
+                top: 356px;
+                left: 892px;} 
+#anhdemo2 .anh2{position: absolute;
+                width: 25%;
+                top: 356px;
+                left: 628px;} 
+#anhdemo2 .anh3{position: absolute;
+                width: 25%;
+                 top: 541px;
+                 left: 929px;} 
+#anhdemo2 .anh4{position: absolute;
+                width: 25%;
+                top: 541px;
+                left: 669px;} 
+           
+#content{background-color: none;
+         max-width: 75%;
+         float: left;
+         margin-top: 50px;
+        }
+
+#content .left{max-width: 50%;
+               background-color: none;
+              float: left;
+              overflow: hidden;}
+#content .left img{max-width: 100%;
+                  float: left;
+                padding-right: 2px;} 
+#content .left img:hover{transform: scale(1.2);}
+#content .right{max-width:50% ;
+               float: right;
+               background-color: none;}
+#content .right img{max-width: 100%;
+                    float: left;
+                    padding-left: 5px;
+                    margin-bottom: 5px;
+                    }
+#content .right img:hover{transform: translate(0, -5px);
+                    box-shadow: 0px 5px 5px 0px rgb(150, 150, 148) ;}
+#content .right .anhmau{max-width: 30%;
+                       float: left;
+                       padding-left: 5px;
+                  }
+#sidebar{background-color: rgb(255, 255, 0);
+        max-width: 25%;
+        float: right;
+        margin-top: 50px;
+        }
+#footer{background-color: purple;
+       max-width: 100%;
+       clear: both;
+       margin-top: 50px;
+        } 
+#chat{position: fixed;
+        top: 503px;
+        left: 1000px;}
+#chat img{width: 45px;}
