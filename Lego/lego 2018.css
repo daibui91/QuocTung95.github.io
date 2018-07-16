@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+.wrap{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: auto;  
+}
+
+ #name{
+     text-align: center;
+     align-content: center;
+     width: 100%;
+ }
+
+#menu li {
+    margin-left: 30%;
+    display:inline-block;
+    margin: 20px;
+    background:rgb(206, 198, 198);
+    border-radius: 10px; 
+    width: 15%;
+    text-align: center;
+}
+#menu .hi{
+    position: absolute;
+    right: 8%;
+    width: 64%;
+}
+#menu li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu li:hover{
+    background: rgba(121, 68, 68, 0.8);
+}
+
+#menu li a{
+    
+    padding: 9px 18px;
+    display:block;
+
+}
+#menu li.active a{
+    color: #fff;
+}
+#menu{
+    position: relative;
+    height: 80px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#all {
+    background-image: url(photos/vlcsnap-2013-01-23-15h41m14s36.jpg);
+    width: 100%;
+}
+#fullpage .phan1{
+    background-image: url(photos/vlcsnap-2013-01-23-15h41m14s36.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 350px;
+    position: relative;
+}
+
+.hihi {
+    position: relative;
+}
+
+#fullpage .tieude{
+    color: rgb(204, 8, 8);
+    position: relative;
+    font-size: 20px;
+    left: 60px;
+    top: -94px;
+    width: 70%;
+
+}
+#fullpage {
+    margin-top: 0px;
+}
+@keyframes title {
+    0%  { color: rgb(240, 15, 27);}
+    25%  { color: rgb(39, 13, 184);}
+    50%  {color: rgb(36, 255, 7);}
+    75%  { color: rgb(255, 238, 2);}
+    100% {color: rgb(255, 0, 234);}
+}
+#fullpage .tieude {
+	animation: title 5s ease infinite;
+}
+.iframe{
+    border: 0;
+    position: absolute;
+    left: 83px;
+}
+.bishub{
+    position: absolute;
+    width: 23%;
+    height: 100px;
+    top: 445px;
+    left: 561px;
+}
+#phan2 {
+    position: relative;
+}
+#phan2 img{
+    position: absolute;
+    right: 0%;
+    height: 300px;
+    top: 0;
+}
+.tech img{
+    position: absolute;
+    width: 67%;
+}
+.bishub img{
+    width: 90%;
+}

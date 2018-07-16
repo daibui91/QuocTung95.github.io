@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+.wrap{max-width: 1024px;
+      margin: auto;}
+#banner{max-width: 100%;
+        display: block;
+        margin: auto;
+        position: relative;}
+#banner img{width: 1024px;
+        height: 560px;
+        margin: auto;
+        display: block;
+        }
+#banner .happy{width: 80px;
+               height: 80px;
+               border-radius: 40px;
+               background-color: red;
+               text-align: center;
+               font-size: 30px;
+               padding-top: 25px;
+               color: white;
+               float: left;}
+#Tung {position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: hieuung 10s ease infinite;}
+
+@keyframes hieuung{
+    0%{background-color: springgreen; color: slateblue;}
+    25%{background-color: red; color: black;}
+    50%{background-color: aqua; color: purple;}
+    75%{background-color: slateblue; color: yellow;}
+    100%{background-color: pink; color: magenta;}
+}
+
