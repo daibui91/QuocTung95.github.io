@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="hihi.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+  <div id="main">
+
+    <h1 id="h1">CACULATOR</h1>
+  <form Method="POST" name="caculator">
+        <table align="center" border="1" cellspacing="1" cellpadding="1">
+          <tr>
+            <td colspan="10"><input class="display" style="border-color: blue" type="text" id="hienthi"> <br>
+                             <input class="display" type="text" id="ketqua">
+            </textarea></td>
+          </tr>
+          <tr>
+            <td><input class="nut" onclick="reset()"  type="button" value="AC" /> </td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="(" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value=")" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="%" /></td>
+            <td><input class="nut" onclick="backSpace()" type="button" value="del" /></td>
+          </tr>
+          <tr>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="7" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="8" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="9" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="/" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="!" /></td>
+
+          </tr>
+          <tr>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="4" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="5" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="6" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="*" /></td>
+            <td><input class="nut" onclick="hello()" type="button" value="hello" /></td>
+
+          </tr>
+          <tr>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="1" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="2" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="3" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="-" /></td>
+            <td><input class="nut" onclick="result()" type="button" value="^^" /></td>
+            
+
+          </tr>
+          <tr>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="0" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="." /></td>
+            <td><input class="nut" onclick="result()" type="button" value="=" /></td>
+            <td><input class="nut" onclick="display(this.value)" type="button" value="+" /></td>
+            <td><input class="nut" onclick="changeTheme()" type="button" value="Color" /></td>
+            
+
+          </tr>
+        </table>
+      </form>
+    </div>
+
+
+      <script src="jquery-3.3.1.min.js" ></script>
+
+        
+
+        <script src="hi.js"></script>
+        
+        
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+
+
+.nut {
+    width: 40px;
+    height: 40px;
+    color: rgb(184, 182, 182);
+    text-align: center;
+   
+    border-color: white;
+}
+#body td input {
+    color: red;
+}
+#main {
+    margin-top: 160px;
+}
+
+.display{
+    width: 213px;
+    border: 0px;
+    height: 20px;
+}
+
+#h1{
+    text-align: center;
+}
