@@ -8,8 +8,8 @@
 
 
     function flip(card){
-        $(card).find('.front').toggleClass('latfront');
-        $(card).find('.back').toggleClass('latback');
+        $(card).toggleClass('flipped');
+        // $(card).find('.back').toggleClass('latback')
     
     console.log('this :', card);
 
@@ -17,14 +17,19 @@
             current=$(card);
         } else{
             if (current.attr('data-name') !=$(card).attr('data-name')) {
-                console.log('khac roi nhe');
+
+                setTimeout(() => {  
+                current.toggleClass('flipped');
+                $(card).toggleClass('flipped');
+                current=null;
+
+            }, 800 );
+                
+
             } else {
                 console.log('yeah');
+                current =null;
             }
-            
-        
-    
-    
     }
 }
 

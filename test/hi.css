@@ -38,14 +38,15 @@ img {
     margin: 0.5%;
 }
 
-.card .latfront {
+.flipped .front {
     transform: rotateY(180deg);
     visibility: visible;
-}
 
-.card .latback {
+}
+.flipped .back {
     transform: rotateY(180deg);
     visibility: hidden;
+    
 }
 
 .content {
