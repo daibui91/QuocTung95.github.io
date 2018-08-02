@@ -5,7 +5,7 @@ var hopanh = ['f1', 'f2', 'f3','f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11',
 
 var current = null;
 var count = 0;
-var time = 40;
+var time = 50;
 let run;
 var ting = document.getElementById("ting");
 var victory = document.getElementById("victory");
@@ -77,7 +77,7 @@ $('.difficult').click(function (e) {
             $('.again').addClass('choilai');
             $('.momo').removeClass('momo-andi');
             count = 0;
-            time = 40;
+            time = 50;
             current = null;
             $('.card').css('pointer-events', 'auto');
 
@@ -177,7 +177,7 @@ function flip(card) {
 
                 clearInterval(run);
                 count = 0;
-                time = 40;
+                time = 50;
                 current = null;
                 $('.card').css('pointer-events', 'auto');
                 $('.time').addClass('stop');
