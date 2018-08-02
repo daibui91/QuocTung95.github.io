@@ -454,7 +454,7 @@ img.snow {
     height: 10px;
     background-color: blue;
     margin-top: 3px;
-    animation: start 45s forwards;
+    animation: start 60s forwards;
 }
 @-webkit-keyframes start {
     0%{
