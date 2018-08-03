@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    color: blue;
+    /* margin: auto; */
+    transform: 50%;
+}
+
+input.info {
+    width: 300px;
+    height: 50px;
+    margin-top: 2px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.wrap {
+    max-width: 30%;
+    margin: auto;
+}
