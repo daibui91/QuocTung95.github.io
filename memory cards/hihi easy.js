@@ -160,16 +160,22 @@ function flip(card) {
                 current = null;
 
 
-            }, 500);
+            }, 800);
 
 
         } else {
-            playting();
-            $(card).addClass('andi');
-            current.addClass('andi');
+            setTimeout (()=> {
+                playting();
+                $(card).addClass('andi');
+                current.addClass('andi');
+                count++;
+                current = null;
 
-            count++;
-            current = null;
+
+            },500);
+         
+
+           
             console.log(count)
 
             if (count === 12) {
