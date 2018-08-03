@@ -160,7 +160,7 @@ function flip(card) {
                 current = null;
 
 
-            }, 700);
+            }, 800);
 
 
         } else {
