@@ -9,7 +9,6 @@ let run;
 var ting = document.getElementById("ting");
 var victory = document.getElementById("victory");
 var lose = document.getElementById("lose");
-var music = document.getElementById("music");
 var x2 = hopanh.concat(hopanh);
 
 
@@ -23,9 +22,7 @@ function playvictory() {
 function playlose() {
     lose.play();
 }
-function playmusic() {
-    music.play();
-}
+
 
 
 
@@ -167,7 +164,7 @@ function flip(card) {
                 current = null;
 
 
-            }, 800);
+            }, 600);
 
 
         } else {
