@@ -9,6 +9,7 @@ let run;
 var ting = document.getElementById("ting");
 var victory = document.getElementById("victory");
 var lose = document.getElementById("lose");
+var music = document.getElementById("music");
 var x2 = hopanh.concat(hopanh);
 
 
@@ -22,6 +23,12 @@ function playvictory() {
 function playlose() {
     lose.play();
 }
+function playmusic() {
+    music.play();
+}
+
+
+
 // Hàm đảo vị trí các phần tử trong mảng
 
 // Hàm đảo vị trí các phần tử trong mảng
@@ -62,6 +69,7 @@ $('.content').html(anh);
 
 
 $('.easy').click(function (e) {
+
     run = setInterval(function () {
 
         time--;
