@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sansang {
+    width: 150px;
+    background-color: blue;
+    /* margin: auto; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 300px;
+    border-radius: 5px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-decoration-color: white;
+    color: white;
+    animation: sansang 1s forwards;
+    animation-delay: 6s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+}
+.sansang:hover {
+    cursor: pointer;
+}
+@-webkit-keyframes sansang{
+    0%{
+        opacity: 0 ;
+        visibility: hidden;
+        transform: scale(0);
+        z-index: 3;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1 ;
+        visibility: visible;
+        transform: scale(1);
+        z-index: 3;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.sansang.ssan {
+
+    animation: ssan 0.5s;
+}
+@-webkit-keyframes ssan{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+
+        transform: scale(0);
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+    }
+}
+.again {
+    width: 150px;
+    background-color: blue;
+    /* margin: auto; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 300px;
+    border-radius: 5px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-decoration-color: white;
+    color: white;
+    animation-delay: 3s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+}
+.again:hover{
+    cursor: pointer;
+}
+.again.againhien{
+    animation: againhien 2s forwards;
+    animation-delay: 2s;
+}
+@-webkit-keyframes againhien{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        visibility: hidden;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        visibility: visible;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+    }
+}
+/* .again.againan {
+    animation: againan 1s;
+}
+@-webkit-keyframes againan {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+        visibility: visible;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0);
+        visibility: hidden;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+} */
+
+
+
+
+.cloud3 {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    animation: cloud3 5s;
+    animation-delay: 5s;
+}
+
+.cloud3 img {
+    width: 100%;
+}
+
+.cloud1 img {
+    width: 100%;
+}
+
+.cloud2 img {
+    width: 100%;
+}
+
+.cloud2 {
+    width: 51%;
+    position: absolute;
+    right: -2%;
+    animation: cloud2 5s;
+    animation-delay: 5s;
+}
+
+.cloud1 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    animation: cloud1 5s;
+    animation-delay: 5s;
+}
+@-webkit-keyframes cloud1 {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    50%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        top: -200px;
+        z-index: 2;
+    }
+    100%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        top: -400px;
+        z-index: 2;
+    }
+
+}
+@-webkit-keyframes cloud2 {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    50%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        right: -200px;
+        z-index: 2;
+        
+    }
+    100%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        right: -300px;
+        z-index: 2;
+    }
+
+}
+@-webkit-keyframes cloud3 {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        top: 50px;
+        
+    }
+    90%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        bottom: 100px;
+        z-index: 2;
+
+        
+    }
+    100%{
+        opacity: 0;
+        visibility: visible;
+        opacity: 1;
+        bottom: 300px;
+        z-index: 2;
+    }
+
+}
+
+
+.hinhnen img {
+    width: 100%;
+}
+
+@-webkit-keyframes body {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.main {
+    visibility: hidden;
+}
+.main.mainhienra {
+    visibility: visible;
+    z-index: 3;
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+}
+
+div#traitim {
+    width: 6%;
+    float: right;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+}
+
+#traitim img {
+    width: 40px;
+    height: 40px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.haha {
+    width: 28%;
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    visibility: hidden;
+    opacity: 0;
+    animation: haha 4s ;
+    animation-delay: 1s;
+}
+@-webkit-keyframes haha{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0);
+        top: 20px;
+        
+    }
+    20%{
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+        z-index: 2;
+        top: 20px;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+        z-index: 2;
+        top: 20px;
+    }
+}
+
+.haha img {
+    width: 100%;
+}
+
+.hunter {
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    top:140px;
+    right:0px;
+    visibility: hidden;
+    animation: thosan 5s;
+    
+}
+@-webkit-keyframes thosan {
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        z-index: 2;
+        top:140px;
+
+    }
+    20% {
+        visibility: visible;
+        opacity: 1;
+        z-index: 2;
+        top:140px;
+
+    }
+    50% {
+        visibility: visible;
+        opacity: 1;
+        right: 20px;
+        z-index: 2;
+        top:140px;
+        
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        right: 100px;
+        z-index: 2;
+        top:140px;
+    }
+
+}
+
+
+
+.hunter img {
+    width: 500px;
+    height: 500px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+div#diemso {
+    /* margin-bottom: 20px; */
+    background: red;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+
+.choice {
+    width: 45%;
+    height: 60px;
+    background: #1e90ff;
+    float: left;
+    /* margin-right: 35px; */
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.choice:hover { cursor: pointer;}
+
+.choice.A , .choice.C {
+    /* margin-left: 2%; */
+    margin-right: 10%;
+}
+
+.dapan {
+    width: 70%;
+    margin: auto;
+}
+
+#cauhoi {
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+    height: 100px;
+    /* margin: 20px 0px; */
+    margin-bottom: 20px;
+   
+    border-radius: 11px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
+}
+#traitim .mang1 img{
+    visibility: hidden;
+}
+#traitim .mang2 img{
+    visibility: hidden;
+}
+#traitim .mang3 img{
+    visibility: hidden;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    background-image: url('image/funny-animal-cartoon-with-forest-background-vector-9890606.jpg');
+    height: 700px;
+}
+.dammay {
+    visibility: hidden;
+}
+.chucmung {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.chucmung img{
+    width: 100%;
+}
+.chucmung.chucmunghien{
+    animation: chucmunghien 5s forwards;
+
+}
+@-webkit-keyframes chucmunghien{
+    0%{
+        transform: scale(0);
+        visibility: hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+        opacity: 1;
+        z-index: 3;
+    }
+}
+
+.fall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fall img{
+    width: 100%;
+}
+.fall.fallhien{
+    animation: fallhien 5s forwards;
+
+}
+@-webkit-keyframes fallhien{
+    0%{
+        transform: scale(0);
+        visibility: hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+        opacity: 1;
+        z-index: 3;
+    }
+}
