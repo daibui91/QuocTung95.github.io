@@ -46,7 +46,7 @@
             this.capnhat20x = setInterval(update,10);
             window.addEventListener('keyup',function(e){
                if(e.keyCode==38 || e.keyCode == 67 || e.keyCode == 32){
-                   conrong.y += -60;
+                   conrong.y += -40;
                   
                }
             });
@@ -110,13 +110,14 @@
             var otherduoitop = otherduoi.y;
             // var otherduoibottom = otherduoi.y + (otherduoi.height);
             var cash = true;
+            if(left == otherduoiright){
+                tingting();
+            }
             if ((bottom < otherduoitop)|| (right < otherduoileft) || (left > otherduoiright)){
                 return false;
             }
             return cash;
-            if(left == otherduoiright){
-                tingting();
-            }
+
             
            
 
@@ -148,9 +149,9 @@
         var gap = 80;
         var h = canvas.height;
         
-        var y = Math.floor(Math.random()*300);
-        m=h-y-gap;
-        if(conrong.y==360 || conrong.y == 0){
+        var r = Math.floor(Math.random()*180+50);
+        m=h-r-gap;
+        if(conrong.y>=360 || conrong.y <= 0){
             
             
             area.stop();
@@ -180,8 +181,8 @@
         }
         if(area.frameNo == 1 || everyinterval(150)){
             // vatcanduoi.push(new me (970, y+gap, 'blue', 30, h-y-gap));
-            vatcanduoi.push(new me (970, y+gap, "up.png", 40, h-y-gap, "image"));
-            vatcantren.push(new me (970, y-gap, 'down.png',40, -400, "image"));
+            vatcanduoi.push(new me (970, r+gap, "up.png", 50, h-r-gap, "image"));
+            vatcantren.push(new me (970, r-gap, 'down.png',50, -400, "image"));
 
         }
         for (i = 0; i < vatcanduoi.length; i += 1){
@@ -198,13 +199,8 @@
 
         
 
-        conrong.y += 1.5 ;
+        conrong.y += 1.3 ;
         conrong.ve();  
         
 }
-         
-
      
-
-
-    

@@ -311,7 +311,7 @@ function button(x){
 
     
     
-    if(chon === dapan[0] || chon === dapan[1] || chon === dapan[2]||chon === dapan[3]||chon === dapan[4]||chon === dapan[5]||chon === dapan[6]||chon === dapan[7]||chon === dapan[8]||chon === dapan[9]||chon === dapan[10]||chon === dapan[11]||chon === dapan[12]||chon === dapan[13]||chon === dapan[14]||chon === dapan[15]||chon === dapan[16]||chon === dapan[17]||chon === dapan[18]||chon === dapan[19]||chon === dapan[20]||chon === dapan[21]||chon === dapan[22]||chon === dapan[23]||chon === dapan[24] ){
+    if(chon === combo.dapan){
         count ++;
         if(count == 10){
             votay();
